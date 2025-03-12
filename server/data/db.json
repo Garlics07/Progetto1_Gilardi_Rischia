@@ -1,0 +1,13 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "nome": "Amministratore",
+        "email": "admin@prenotazioni.com",
+        "password": "$2b$10$XwCS7MfP.0VXBwalaIeLZORKovZGor44x.oUG/z0CvRzWvEvFQhl2",
+        "role": "admin",
+        "createdAt": "2025-03-12T09:36:24.463Z"
+      }
+    ],
+    "prenotazioni": []
+  }
