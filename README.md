@@ -1,5 +1,7 @@
 # Progetto1-Gilardi-Rischia
 
+![immagine](Testo_Progetto1.png)
+
 # Analisi del Progetto Centro Sportivo
 
 ## Struttura del Progetto
