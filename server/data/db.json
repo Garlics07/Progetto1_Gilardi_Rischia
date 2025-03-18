@@ -1,13 +1,40 @@
 {
-    "users": [
-      {
-        "id": "1",
-        "nome": "Amministratore",
-        "email": "admin@prenotazioni.com",
-        "password": "$2b$10$XwCS7MfP.0VXBwalaIeLZORKovZGor44x.oUG/z0CvRzWvEvFQhl2",
-        "role": "admin",
-        "createdAt": "2025-03-12T09:36:24.463Z"
-      }
-    ],
-    "prenotazioni": []
-  }
+  "users": [
+    {
+      "id": "1",
+      "nome": "Amministratore",
+      "email": "admin@prenotazioni.com",
+      "password": "$2b$10$XwCS7MfP.0VXBwalaIeLZORKovZGor44x.oUG/z0CvRzWvEvFQhl2",
+      "role": "admin",
+      "createdAt": "2025-03-12T09:36:24.463Z"
+    },
+    {
+      "id": "1741772817981",
+      "nome": "Marco",
+      "email": "marcogilardi23@gmail.com",
+      "password": "$2b$10$zNT/k3dcK2MFROX4CTVKTu8b8mjA3oIqcBqNLrirLXrIPNki6XERO",
+      "role": "user",
+      "createdAt": "2025-03-12T09:46:57.981Z"
+    }
+  ],
+  "prenotazioni": [
+    {
+      "id": "1741774492280",
+      "data": "2025-03-15",
+      "ora": "12:00",
+      "campo": "⚽ Campo da Calcio",
+      "email": "admin@prenotazioni.com",
+      "userId": "1",
+      "createdAt": "2025-03-12T10:14:52.280Z"
+    },
+    {
+      "id": "1741774588682",
+      "data": "2025-03-14",
+      "ora": "15:00",
+      "campo": "🎾 Campo da Tennis",
+      "email": "marcogilardi23@gmail.com",
+      "userId": "1741772817981",
+      "createdAt": "2025-03-12T10:16:28.682Z"
+    }
+  ]
+}

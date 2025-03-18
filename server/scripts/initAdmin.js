@@ -39,5 +39,3 @@ const initializeAdmin = async () => {
 };
 
 initializeAdmin();
-
-//Necessaria per tenere vivo l'account admin , ad ogni spegnimento del server viene rigenerato
