@@ -1,0 +1,25 @@
+/* stile per le due pagine statiche ComeFunziona e CentriSportivi */
+.static-page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.static-page-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.static-page-container p, .static-page-container li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.static-page-container ul {
+    text-align: left;
+    margin: 20px 0;
+}

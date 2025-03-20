@@ -1,0 +1,130 @@
+/*stile css globale dell'app*/
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --light-bg: #f8f9fa;
+    --dark-bg: #2c3e50;
+    --text-color: #333;
+    --light-text: #fff;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+  }
+  
+  /* Stile per la Navbar */
+  .navbar {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--secondary-color) !important;
+  }
+  
+  /* Stile per le Card */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  /* Stile per i Button */
+  .btn {
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  /* Stile per i Form */
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+    border-color: var(--secondary-color);
+  }
+  
+  /* Stile per le Table */
+  .table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table thead th {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    border: none;
+  }
+  
+  /* Stile per gli Alert */
+  .alert {
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Animazione */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+    
+    .card {
+      margin-bottom: 1rem;
+    }
+  }

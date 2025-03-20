@@ -1,0 +1,135 @@
+/* stile per la pagina home */
+.hero-section {
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(52, 152, 219, 0.7)), url('../assets/sport-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 3rem;
+}
+  
+  .feature-card {
+    height: 100%;
+    background: white;
+    padding: 2rem;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .events-section {
+    background-color: var(--light-bg);
+    padding: 3rem 0;
+  }
+  
+  .event-card {
+    border-left: 4px solid var(--secondary-color);
+  }
+
+.search-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.table-responsive {
+  margin-top: 1rem;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 2rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.calendar-legend {
+    font-size: 0.9rem;
+}
+
+.calendar-legend .badge {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.table-responsive {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.table td {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.table td div {
+    transition: all 0.3s ease;
+}
+
+.table td div:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Stili per i campi */
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .calendar-legend {
+        font-size: 0.8rem;
+    }
+    
+    .calendar-legend .d-flex {
+        flex-wrap: wrap;
+    }
+    
+    .table th {
+        font-size: 0.8rem;
+    }
+    
+    .table td {
+        font-size: 0.8rem;
+        height: 50px;
+    }
+}
