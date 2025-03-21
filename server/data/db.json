@@ -15,6 +15,14 @@
       "password": "$2b$10$zNT/k3dcK2MFROX4CTVKTu8b8mjA3oIqcBqNLrirLXrIPNki6XERO",
       "role": "user",
       "createdAt": "2025-03-12T09:46:57.981Z"
+    },
+    {
+      "id": "1742572162390",
+      "nome": "Nicola",
+      "email": "nicolarischia1@gmail.com",
+      "password": "$2b$10$E.9HQfDJXU9vHcxYEdC/0ugUKot2T6oYNADrd4sriPFKemg.g.kky",
+      "role": "user",
+      "createdAt": "2025-03-21T15:49:22.390Z"
     }
   ],
   "prenotazioni": [
