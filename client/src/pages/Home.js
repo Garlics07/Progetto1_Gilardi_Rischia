@@ -131,6 +131,35 @@ function Home() {  //funzione relativa al funzionamento della homepage
                     </div>
                 )}
             </div>
+            <div className="container mt-5">
+                <h2 className="text-center mb-4">Novità</h2>
+                <div className="row mb-5">
+                    <div className="col-md-4">
+                        <div className="card h-100">
+                            <div className="card-body">
+                                <h5 className="card-title">🏆 Nuovo Torneo di Calcio</h5>
+                                <p className="card-text">Iscriviti al nostro torneo di calcio che inizia il prossimo mese!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card h-100">
+                            <div className="card-body">
+                                <h5 className="card-title">🎉 Offerta Speciale</h5>
+                                <p className="card-text">Sconto del 20% su tutte le prenotazioni effettuate entro la fine del mese!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card h-100">
+                            <div className="card-body">
+                                <h5 className="card-title">🎾 Nuovo Corso di Tennis</h5>
+                                <p className="card-text">Unisciti ai nostri nuovi corsi di tennis, aperti a tutti i livelli!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
