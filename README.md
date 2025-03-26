@@ -51,14 +51,7 @@ Tecnologie principali:
 1. Gestione degli utenti e autenticazione
 2. Gestione delle prenotazioni
 3. Amministrazione del centro sportivo
-4. Gestione delle strutture sportive
 
-## Sviluppi Futuri e Miglioramenti Possibili
-1. Implementazione di test automatizzati
-2. Documentazione API completa
-3. Sistema di logging avanzato
-4. Ottimizzazione delle performance
-5. Implementazione di funzionalità aggiuntive per gli utenti
 
 ## Conclusioni
-Il progetto presenta una struttura ben organizzata e modulare, che facilita la manutenzione e lo sviluppo futuro. L'architettura client-server scelta permette una chiara separazione delle responsabilità e una gestione efficiente delle risorse. 
+Il progetto presenta una struttura organizzata e modulare, che facilita la manutenzione e lo sviluppo. L'architettura client-server scelta permette una chiara separazione delle responsabilità e una gestione efficiente delle risorse. 
