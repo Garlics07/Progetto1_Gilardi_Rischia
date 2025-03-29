@@ -69,3 +69,6 @@ Tecnologie principali:
 
 ## Conclusioni
 Il progetto presenta una struttura organizzata e modulare, che facilita la manutenzione e lo sviluppo. L'architettura client-server scelta permette una chiara separazione delle responsabilità e una gestione efficiente delle risorse. 
+
+## Fonti Principali 
+ChatGPT , [Reac](https://react.dev/) , le presentazioni e i progetti sviluppati in Js e JSon 
